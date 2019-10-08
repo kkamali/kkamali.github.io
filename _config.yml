@@ -1,11 +1,11 @@
 # Site settings
 author: Kathleen Kamali
-title: 
+title: A Developer's Grimoire
 header-img: img/home-bg.png
 email: kathleenkamali@gmail.com
 copyright_name: Kathleen Kamali
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Coding == Witchcraft
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  kkamali

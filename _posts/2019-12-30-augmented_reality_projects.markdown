@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Augmented Reality Projects"
-date:       2019-12-30 22:43:16 +0000
+title:      "Augmented Reality Project"
+date:       2019-12-30 17:43:17 -0500
 permalink:  augmented_reality_projects
 ---
 

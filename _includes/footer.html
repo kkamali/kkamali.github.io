@@ -45,6 +45,9 @@
                 </ul>
                 <p class="copyright text-muted">Copyright &copy; {{ site.copyright_name }} {{ site.time | date: '%Y' }}
                 </p>
+                {% if page.title != "About" %}
+                <p class="copyright text-muted">Photo by Mark Tegethoff on Unsplash</p>
+                {% endif %}
             </div>
         </div>
     </div>

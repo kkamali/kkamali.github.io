@@ -120,14 +120,14 @@ hr.small {
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
-    color: #0085a1;
+    color: #8621d9;
   }
   .navbar-custom.is-fixed .nav li a {
     color: #404040;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
-    color: #0085a1;
+    color: #8621d9;
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -222,7 +222,7 @@ hr.small {
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085a1;
+  color: #8621d9;
 }
 .post-preview > a > .post-title {
   font-size: 30px;
@@ -246,7 +246,7 @@ hr.small {
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #0085a1;
+  color: #8621d9;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -326,7 +326,7 @@ footer .copyright {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #0085a1;
+  color: #8621d9;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -346,8 +346,8 @@ form .row:first-child .floating-label-form-group {
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  background-color: #8621d9;
+  border: 1px solid #8621d9;
   color: white;
 }
 .pager {
@@ -374,8 +374,8 @@ form .row:first-child .floating-label-form-group {
 .pager li > a:hover,
 .pager li > a:focus {
   color: white;
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  background-color: #8621d9;
+  border: 1px solid #8621d9;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
@@ -388,12 +388,12 @@ form .row:first-child .floating-label-form-group {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #8621d9;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #8621d9;
 }
 img::selection {
   color: white;

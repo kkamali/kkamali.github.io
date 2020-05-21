@@ -45,6 +45,7 @@ const Deck = () => {
 		}
 		fetchData()
 	}
+}
 ```
 
 However, it looks like React is coming out with a new component -- Suspense. 

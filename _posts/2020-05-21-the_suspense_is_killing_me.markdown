@@ -15,6 +15,7 @@ What do we do instead? We want to use the latest and greatest of course. (Or to 
 
 **Old Code:**
 ```
+...
 class Deck extends Component {
   state = {
     tarotCards: []
@@ -29,24 +30,25 @@ class Deck extends Component {
         })
       })
   }
-	....
+...
 ```
 
 **To:**
 ```
-const Deck = () => {
-  const [deck, setDeck] = useState({})
+...
+export default function Deck() {
+  const [cards, setCards] = useState({})
+	
+	async function fetchData() {
+	  const res = await fetch("http://localhost:3000/cards")
+		res.json().then(res => setDeck(res))
+	}
 	
 	useEffect(() => {
-	  async function fetchData() {
-		  const res = await fetch("http://localhost:3000/cards")
-			res
-			  .json()
-				.then(res => setDeck(res))
-		}
-		fetchData()
+	  fetchData() 
 	}
-  ....
+}
+...
 ```
 
 However, it looks like React is coming out with a new component -- Suspense. 

@@ -40,13 +40,15 @@ export default function Deck() {
   const [cards, setCards] = useState({})
 	
 	async function fetchData() {
-	  const res = await fetch("http://localhost:3000/cards")
-		res.json().then(res => setDeck(res))
+	  const res = await fetch('http://localhost:3000/cards')
+		const json = await res.json()
+		
+		setDeck(json)
 	}
 	
 	useEffect(() => {
 	  fetchData() 
-	}
+	}, [])
 }
 ...
 ```
